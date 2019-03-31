@@ -40,5 +40,7 @@ python3 familycloudaccelerate.py
 
 
 ## TODO
-1. 能正常提数，但是无法获取提速结果需要修改相关接口
-2. Python版本程序不便于移植嵌入式平台如:openwrt，正在编写GO语言版本以便于移植
+1. 能正常提速,但是无法获取提速结果,需要修改相关接口
+2. Python版本程序不便于移植嵌入式平台如:openwrt,正在编写GO语言版本以便于移植
+
+欢迎大家提 ISSUE 本人定当竭力相助
