@@ -63,7 +63,7 @@ def heart_beat(session, secret, method="GET", **kwargs):
     }
     if extra_header:
         header.update(extra_header)
-    if method == "POST":
+    if method == "GET":
         resp = requests.get(UP_QOS_URL, params=send_data, headers=header)
         return resp
     return requests.post(UP_QOS_URL, data=send_data, headers=header)
