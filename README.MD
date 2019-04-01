@@ -14,21 +14,12 @@
     "session_secret":"session_secret",# 必填 session_secret
     "setting":{
         "method":"POST",        # 可选:POST|GET
-        "rate":5                # 心跳包频率 单位秒 建议修改为600
+        "rate":600              # 心跳包频率 单位秒 建议修改为600
     },
     "send_data":{
           "prodCode": "76",     # 默认
           "version": "2.0.10",  # app 版本
           "channelId": "web"    # 默认参数
-    },
-    "extra_header":{
-        "User-Agent": "ApachPOST",#可选:POST|GET
-        "rate":5                  #心跳包频率 单位秒
-    },
-    "send_data":{
-          "prodCode": "76",     #默认
-          "version": "2.0.10",  #app 版本
-          "channelId": "web"    #默认参数
     },
     "extra_header":{
         "User-Agent": "Apache-HttpClient/UNAVAILABLE (java 1.4)"    #附加HTTP Header
