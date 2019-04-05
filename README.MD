@@ -3,7 +3,13 @@
 ## 说明
 脚本思路:[Ruter's Journal](http://blog.ruterfu.com/2019/02/09/faster-upload-using-tianyicloud/)
 破解思路以及Java程序，编写的Python脚本  
-依赖环境: Python3
+依赖环境: Python2 | Python3 , requests
+## 依赖环境安装
+`Ps:` 已经尝试用 python 原生 urllib 库来发送http包,但是服务端恶意返回 400 状态码(原生库无法识别), 原生库抛异常无法读取数据.  
+所以请使用pip安装requests
+```shell
+pip install requests
+```
 ## 使用方法
 
 1. 请参照[Ruter's Journal](http://blog.ruterfu.com/2019/02/09/faster-upload-using-tianyicloud/) 思路进行APP抓包，获取`session_key`,`session_secret`  
@@ -26,8 +32,8 @@
     }
 }
 ```  
-3. 运行程序
-python3 familycloudaccelerate.py
+3. 请选择相应版本的python脚本,运行程序  
+python FamilySpeedUp.py
 
 
 ## TODO
