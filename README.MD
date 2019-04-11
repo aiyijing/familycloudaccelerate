@@ -13,6 +13,7 @@ pip install requests
 ## 使用方法
 
 1. 请参照[Ruter's Journal](http://blog.ruterfu.com/2019/02/09/faster-upload-using-tianyicloud/) 思路进行APP抓包，获取`session_key`,`session_secret`  
+   或者采用 [手机端抓包方法](https://github.com/aiyijing/familycloudaccelerate/wiki/%E5%AE%B6%E5%BA%AD%E4%BA%91%E6%89%8B%E6%9C%BA%E7%AB%AF%E6%8A%93%E5%8C%85%E6%96%B9%E6%B3%95)
 2. 将参数填入config.json 并且酌情修改其他参数
 ```python
 {
