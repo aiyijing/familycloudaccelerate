@@ -65,7 +65,3 @@ echo \
 "nohup /certail_directory/speedup.sh > /certail_directory/speedup.log 2>&1 &" \
 >> /etc/rc.local
 ```
-
-# Appreciation
-
-- [familycloudaccelerate](https://github.com/aiyijing/familycloudaccelerate)
