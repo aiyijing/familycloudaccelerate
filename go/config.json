@@ -1,0 +1,16 @@
+{
+  "session_key":"bc6af2d5-f0f2-4945-b9fd-81aab0999999_family",
+  "session_secret":"E1D361F6E96FF1389678DC6464D999999",
+  "setting":{
+    "method":"POST",
+    "rate":600
+  },
+  "send_data":{
+    "prodCode": "76",
+    "version": "2.0.10",
+    "channelId": "web"
+  },
+  "extra_header":{
+    "User-Agent": "Apache-HttpClient/UNAVAILABLE (java 1.4)"
+  }
+}
