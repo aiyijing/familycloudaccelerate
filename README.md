@@ -72,7 +72,7 @@ python FamilySpeedUp.py
 nohup python FamilySpeedUp.py
 ```
 ### 二进制程序使用
-* 下载相应平台程序,请移步release
+* 下载相应平台程序,请移步[release](https://github.com/aiyijing/familycloudaccelerate/releases)
 * 配置config.json参数:session_key session_secret 
 ```shell
 chmod a+x FamilySpeedUp
