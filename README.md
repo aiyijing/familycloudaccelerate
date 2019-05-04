@@ -1,5 +1,8 @@
 # 天翼家庭云APP 破解提速脚本
 
+## change log
+二进制程序已经编译并发布
+
 ## 说明
 
 * 思路参考:[Ruter's Journal](http://blog.ruterfu.com/2019/02/09/faster-upload-using-tianyicloud/)
@@ -67,6 +70,16 @@ python FamilySpeedUp.py
 ```shell
 # 后台执行
 nohup python FamilySpeedUp.py
+```
+### 二进制程序使用
+* 下载相应平台程序,请移步release
+* 配置config.json参数:session_key session_secret 
+```shell
+chmod a+x FamilySpeedUp
+#config.json与程序在同一路径下
+./FamilySpeedUp
+#config.json与程序不在同一路径下,请提交config.json路径
+./FamilySpeedup ${dir}/config.json
 ```
 
 ### Shell 版本使用
